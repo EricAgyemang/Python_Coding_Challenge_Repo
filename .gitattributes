@@ -1,1 +1,2 @@
 *.py linquist-detectable=true
+*.html linquist-detectable=false
