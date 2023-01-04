@@ -1,2 +1,3 @@
 *.py linquist-detectable=true
 *.html linquist-detectable=false
+*.ipynb linquist-detectable=false
