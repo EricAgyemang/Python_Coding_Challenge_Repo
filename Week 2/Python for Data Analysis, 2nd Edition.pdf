@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-N8R24C');</script>
+        <!-- End Google Tag Manager -->
+        <meta charset="utf-8"/>
+        <title>OAM - CentralLogin | Illinois State University</title>
+        
+           
+           
+                <meta name="googlebot" content="noindex" />
+                <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
+
+                
+                <link rel="stylesheet" type="text/css" href="//iguides.illinoisstate.edu/iguide/iguide-dark.css">
+                <link type="text/css" rel="stylesheet" href="css/cas.css?t=20181107" />
+           
+        
+        <link rel="shortcut icon" href="//cdn.illinoisstate.edu/icons/favicon/reggie.ico" type="image/x-icon" />
+    </head>
+    <body id="cas" class="fl-theme-iphone">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N8R24C"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <script src="//iguides.illinoisstate.edu/"><!-- iGuides --></script>
+    <div class="flc-screenNavigator-view-container">
+        <div class="fl-screenNavigator-view">
+            <div id="header" class="flc-screenNavigator-navbar fl-navbar fl-table">
+                <h1 id="app-name" class="fl-table-cell" title="CentralLogin">
+                    <img src="//cdn.illinoisstate.edu/img/centrallogin/text_only.png" alt="CentralLogin" />
+                </h1>
+            </div>    
+            <div id="content" class="fl-screenNavigator-scroll-container">
+
+    
+
+      <form id="fm1" class="fm-v clearfix" action="https://account.illinoisstate.edu/oam/server/auth
+_cred_submit" method="post">
+      
+  <div class="box fl-panel" id="login">
+                  
+                <!-- Congratulations on bringing CentralLogin online!  The default authentication handler authenticates where usernames equal passwords: go ahead, try it out.  -->
+                    <h2 class="visuallyhidden">Enter your ULID and Password</h2>
+                    <div class="row fl-controls-left">
+                        <label for="username" class="fl-label">Username (ULID):</label>
+                        
+
+                        
+                        
+                        <input id="username" name="username" class="required" tabindex="1" accesskey="u" type="text" value="" size="25" autocomplete="off" required/>
+                        
+                    </div>
+                    <div class="row fl-controls-left">
+                        <label for="password" class="fl-label">Password:</label>
+                        
+                        
+                        <input id="password" name="password" class="required" tabindex="2" accesskey="p" type="password" value="" size="25" autocomplete="off"  required/>
+                    </div>
+                    <div class="row check">
+                        <input id="warn" name="warn" value="true" tabindex="3" accesskey="w" type="checkbox" />
+                        <label for="warn"><span class="accesskey">W</span>arn me before logging me into other sites.</label>
+                    </div>
+                    <div class="row btn-row">
+<div id="cant_sign_in">
+                                <a href="https://account.illinoisstate.edu/selfservice/recovery">Forgot My Password</a>
+                                <br>
+                                <br>
+                                <a href="https://account.illinoisstate.edu/selfservice/forgotten/ulid/">Forgot My Username</a>
+                            </div>
+                        <input class="btn-submit portal-button" name="submit" accesskey="l" value="Sign In" tabindex="4" type="submit" />
+                        <input class="btn-reset" name="reset" accesskey="c" value="CLEAR" tabindex="5" type="reset" />
+                    </div>
+          </div>
+                      
+            <div id="sidebar">
+
+                        <div id="notes">
+                            <div class="title">Please Note</div>
+                            <div class="note-content">
+                            <div class="check_note">
+                                Your Username (ULID) is a login name derived from your name. It is the portion of your Illinois State e-mail address before the @ symbol.
+                            </div>
+                            <!-- <div class="check_note">
+                            Remember, verify that the address bar always appears as below before you Sign In.
+                            <br />
+                            <img src="https://centrallogin.illinoisstate.edu/images/central_login/url.png" alt="https://centrallogin.illinoisstate.edu/login?service..." />
+                        </div>
+                        -->
+                        <div class="check_note">
+                            For security reasons, please Sign Out and exit your web browser when you are done accessing services that require authentication!
+                        </div>
+                        </div>
+                        <br/>
+                        <div class="title">Need Help?</div>
+                        <!-- <a href="https://supportcenter.illinoisstate.edu/ulid/activation/">ULID Activation</a>
+                    <br />
+                    -->
+                    <div class="note-content" id="helplinks">
+                        <a href="https://account.illinoisstate.edu/selfservice/recovery">Forgot My Password</a>
+                        <br />
+                        <a href="https://account.illinoisstate.edu/selfservice/forgotten/ulid/">Forgot My Username</a>
+                        
+                    </div>
+                    <br />
+                    <!-- <a href="http://supportcenter.illinoisstate.edu/kb/1604/">What is CentralLogin?</a>
+                <br />
+                -->
+                <div class="title">Still Having Issues?</div>
+                <div class="note-content">
+                <div id="support_center_info">
+                    <div>Contact the Technology Support Center</div>
+                    <div>309-438-4357</div>
+                    <div>Julian Hall 115</div>
+                    <div>
+                        <a href="mailto:supportcenter@IllinoisState">SupportCenter@illinoisstate.edu</a>
+                    </div>
+                    <div>Hours:</div>
+                    <ul class="hours-list">
+                        <li class="hours-item">Monday - Friday: 7:30AM - 10:00PM</li>
+                        <li class="hours-item">Saturday - Sunday: 10:00AM - 6:30PM</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+
+        </div>
+                
+
+
+
+
+                <!--p class="fl-panel fl-note fl-bevel-white fl-font-size-80">For security reasons, please Log Out and Exit your web browser when you are done accessing services that require authentication!</p>
+                <div id="list-languages" class="fl-panel">
+                
+                    
+                    
+                  <h3>Languages:</h3>
+                  
+                     
+                     
+                        
+                        <ul
+                            ><li class="first"><a href="login?locale=en">English</a></li
+                            ><li><a href="login?locale=es">Spanish</a></li
+                            ><li><a href="login?locale=fr">French</a></li
+                            ><li><a href="login?locale=ru">Russian</a></li
+                            ><li><a href="login?locale=nl">Nederlands</a></li
+                            ><li><a href="login?locale=sv">Svenskt</a></li
+                            ><li><a href="login?locale=it">Italiano</a></li
+                            ><li><a href="login?locale=ur">Urdu</a></li
+                            ><li><a href="login?locale=zh_CN">Chinese (Simplified)</a></li
+                            ><li><a href="login?locale=zh_TW">Chinese (Traditional)</a></li
+                            ><li><a href="login?locale=de">Deutsch</a></li
+                            ><li><a href="login?locale=ja">Japanese</a></li
+                            ><li><a href="login?locale=hr">Croatian</a></li
+                            ><li><a href="login?locale=cs">Czech</a></li
+                            ><li><a href="login?locale=sl">Slovenian</a></li
+                            ><li><a href="login?locale=ca">Catalan</a></li
+                            ><li><a href="login?locale=mk">Macedonian</a></li
+                            ><li><a href="login?locale=fa">Farsi</a></li
+                            ><li><a href="login?locale=ar">Arabic</a></li
+                            ><li class="last"><a href="login?locale=pl">Polish</a></li
+                        ></ul>
+                     
+                   
+                </div>-->
+            </div>
+            </form>
+
+                </div>
+                <div id="footer" class="fl-panel fl-note fl-bevel-white fl-font-size-80">
+                    <div class="footer-info">
+                        <div id="contact">
+                            <p><a href="mailto:supportcenter@illinoisstate.edu">supportcenter@IllinoisState.edu</a></p>
+                        </div>
+                        <div id="copyright">
+                            <p>&copy; 2021 <a href="https://illinoisstate.edu">Illinois State University</a>
+                            &bull;
+                            <span class="legal-more">
+                                <a href="https://IllinoisState.edu/downloads/web-privacy-statement-2010.pdf">Privacy Statement</a>
+                                &bull;
+                                <a href="https://www.policy.ilstu.edu/technology/9-2.shtml">Appropriate Use Policy</a>
+                            </span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="//iguides.illinoisstate.edu/js_lib/jquery.1.8.2.min.js"></script>
+        <script type="text/javascript" src="//iguides.illinoisstate.edu/js_lib/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="js/cas.js"></script>
+        <script type="text/javascript">
+            $("#fm1").submit(function(e) { $("#username").val($("#username").val().toLowerCase(); $(this).submit();e.preventDefault(); return false; })
+        </script>
+    </body>
+</html>
+

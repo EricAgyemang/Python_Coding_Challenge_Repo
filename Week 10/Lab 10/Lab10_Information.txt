@@ -1,0 +1,17 @@
+﻿Since reviews of much work on sentiment analysis
+have already been included in in this section we will
+only review some previous work upon which our research
+is essentially based Hu and Liu summarized a list of
+positive words and a list of negative words respectively
+based on customer reviews The positive list contains 2006
+words and the negative list has 4783 words Both lists also
+include some misspelled words that are frequently present
+in social media content Sentiment categorization is essentially
+a classification problem where features that contain opinions or
+sentiment information should be identified before the classification
+For feature selection Pang and Lee suggested to remove objective 
+sentences by extracting subjective ones They proposed a
+text-categorization technique that is able to identify subjective content
+using minimum cut Gann et al. selected 6799 tokens based on Twitter data
+where each token is assigned a sentiment score namely Total Sentiment Index
+featuring itself as a positive token or a negative token
